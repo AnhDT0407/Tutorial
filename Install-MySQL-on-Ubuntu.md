@@ -1,6 +1,6 @@
 # Install MySQL on Ubuntu
 
-## Step 1: Update Ubuntu
+### 1: Update Ubuntu
 The first thing you should always do is update your system. You can do so by running the following commands:
 
 ```java
