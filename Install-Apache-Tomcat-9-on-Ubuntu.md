@@ -34,7 +34,7 @@ source ~/.bashrc
 ```
 
 ### 4: Setup Tomcat User Accounts
-Finally we need to create user accounts to secure and access admin/manager pages. Edit *conf/tomcat-users.xml* file in your editor and paste inside `<tomcat-users> </tomcat-users>` tags.
+Finally we need to create user accounts to secure and access admin/manager pages. Edit _**conf/tomcat-users.xml**_ file in your editor and paste inside `<tomcat-users> </tomcat-users>` tags.
 ```xml
 <!-- user manager can access only manager section -->
 <role rolename="manager-gui" />
@@ -54,7 +54,6 @@ Host Manager File: `./webapps/host-manager/META-INF/context.xml`
 
 Edit above files and add your IP address like the screenshot. After making changes restart Tomcat service.
 
-Install Apache Tomcat 9
 
 ### 6: Starting Tomcat Service
 Tomcat is very easy to use, There is no need to compile its source. You simply extract the archive and start the tomcat server. Tomcat by default start on port 8080, So make sure no other application using the same port.
@@ -77,7 +76,7 @@ Tomcat started.
 ### 7: Access Tomcat in Browser
 Tomcat server default works on port 8080. Access tomcat in the web browser by connecting your server on port 8080.
 
-Access Tomcat Home- This is default home screen of tomcat 9. There are no authentication required to access this page..
+Access Tomcat Home - This is default home screen of tomcat 9. There are no authentication required to access this page..
 ```java
 http://localhost:8080 
 ```
