@@ -24,7 +24,7 @@ _Note: You should update the tomcat path to match your path_
 You will then be prompted for a series of values, in our case we entered:
 
 ```
-enter Keystore password: password  
+enter Keystore password: password
 retype keystore password: password
 what is your first and last name: localhost
 what is the name of your orgainsation unit: IT
