@@ -35,7 +35,7 @@ What is the two-letter country code for this unit: IE
 ```
 When prompted type yes to confirm all is correct.
 
-Next you will be asked to use the same password for <tomcat>
+Next you will be asked to use the same password for `<tomcat>`
   
 
 ### Step 4
