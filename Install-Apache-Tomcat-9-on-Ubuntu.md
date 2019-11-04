@@ -48,7 +48,8 @@ Finally we need to create user accounts to secure and access admin/manager pages
 ### 5: Enable Host/Manager for Remote IP
 The default manager and host-manager web pages are enabled to access from localhost only. To access these pages from the remote system, you have to allow your IP or IP range in the application-specific context.xml file.
 
-Manager File: `./webapps/manager/META-INF/context.xml`
+Manager File: **./webapps/manager/META-INF/context.xml**
+
 Host Manager File: `./webapps/host-manager/META-INF/context.xml`
 
 Edit above files and add your IP address like the screenshot. After making changes restart Tomcat service.
@@ -63,7 +64,7 @@ chmod +x ./bin/startup.sh
 ./bin/startup.sh
 ```
 
-[Sample Output]
+**[Sample Output]**
 ```java
 Using CATALINA_BASE:   /usr/local/apache-tomcat9
 Using CATALINA_HOME:   /usr/local/apache-tomcat9
