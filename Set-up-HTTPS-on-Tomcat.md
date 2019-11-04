@@ -16,7 +16,7 @@ Enter the command:
 ```java
 keytool -genkey -alias tomcat -keyalg RSA -keystore “C:\apache-tomcat-xxx\conf\localhost.jks”
 ```
-Note: You should update the tomcat path to match your path 
+_Note: You should update the tomcat path to match your path_
 
 
 ### Step 3
