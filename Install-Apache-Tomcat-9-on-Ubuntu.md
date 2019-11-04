@@ -54,6 +54,8 @@ Host Manager File: `./webapps/host-manager/META-INF/context.xml`
 
 Edit above files and add your IP address like the screenshot. After making changes restart Tomcat service.
 
+(https://github.com/AnhDT0407/Documention/blob/master/Images/tomcat-enable-remote-access.png)
+
 
 ### 6: Starting Tomcat Service
 Tomcat is very easy to use, There is no need to compile its source. You simply extract the archive and start the tomcat server. Tomcat by default start on port 8080, So make sure no other application using the same port.
