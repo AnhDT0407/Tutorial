@@ -1,4 +1,4 @@
-# Install Tomcat for MACos
+# Install Tomcat for MacOS
 
 ### Here are the easy to follow steps to get it up and running on your Mac
 
