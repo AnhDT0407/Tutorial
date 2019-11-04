@@ -34,7 +34,7 @@ source ~/.bashrc
 ```
 
 ### 4: Setup Tomcat User Accounts
-Finally we need to create user accounts to secure and access admin/manager pages. Edit `conf/tomcat-users.xml` file in your editor and paste inside `<tomcat-users> </tomcat-users>` tags.
+Finally we need to create user accounts to secure and access admin/manager pages. Edit *conf/tomcat-users.xml* file in your editor and paste inside `<tomcat-users> </tomcat-users>` tags.
 ```xml
 <!-- user manager can access only manager section -->
 <role rolename="manager-gui" />
@@ -48,7 +48,7 @@ Finally we need to create user accounts to secure and access admin/manager pages
 ### 5: Enable Host/Manager for Remote IP
 The default manager and host-manager web pages are enabled to access from localhost only. To access these pages from the remote system, you have to allow your IP or IP range in the application-specific context.xml file.
 
-Manager File: **./webapps/manager/META-INF/context.xml**
+Manager File: `./webapps/manager/META-INF/context.xml`
 
 Host Manager File: `./webapps/host-manager/META-INF/context.xml`
 
