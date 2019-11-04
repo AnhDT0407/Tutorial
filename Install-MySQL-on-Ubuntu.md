@@ -7,13 +7,13 @@ The first thing you should always do is update your system. You can do so by run
 apt-get update && apt-get upgrade
 ```
 
-## Step 2: Install MySQL
+### 2: Install MySQL
 
 ```java
 sudo apt-get install mysql-server
 ```
 
-## Step 3: Testing MySQL
+### 3: Testing MySQL
 Regardless of how you installed it, MySQL should have started running automatically. To test this, check its status.
 
 ```java
