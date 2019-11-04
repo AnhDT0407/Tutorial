@@ -54,7 +54,7 @@ Host Manager File: `./webapps/host-manager/META-INF/context.xml`
 
 Edit above files and add your IP address like the screenshot. After making changes restart Tomcat service.
 
-(https://github.com/AnhDT0407/Documention/blob/master/Images/tomcat-enable-remote-access.png)
+![](https://github.com/AnhDT0407/Documention/blob/master/Images/tomcat-enable-remote-access.png)
 
 
 ### 6: Starting Tomcat Service
