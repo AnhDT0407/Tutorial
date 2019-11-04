@@ -9,6 +9,7 @@ Open a command prompt window and navigate to your JAVA_HOME bin folder, in our c
 C:\Program Files\Java\jre1.8.0_171\bin
 ```
 
+
 ### Step 2
 
 Enter the command:
@@ -16,6 +17,7 @@ Enter the command:
 keytool -genkey -alias tomcat -keyalg RSA -keystore “C:\apache-tomcat-xxx\conf\localhost.jks”
 ```
 Note: You should update the tomcat path to match your path 
+
 
 ### Step 3
 
@@ -32,3 +34,38 @@ what is the name of your state or province: Leinster
 What is the two-letter country code for this unit: IE
 ```
 When prompted type yes to confirm all is correct.
+
+Next you will be asked to use the same password for <tomcat>
+  
+
+### Step 4
+
+Now open the tomcat server.xml file, in our case the file is located here:
+
+```java
+C:\apache-tomcat-8.5.34\conf\server.xml
+```
+
+### Step 5
+
+Add the following block to the file:
+
+```xml
+	<Connector
+		protocol="HTTP/1.1"
+		port="8443" maxThreads="200"
+		scheme="https" secure="true" SSLEnabled="true"
+		keystoreFile="conf\localhost.jks" keystorePass="password"
+		clinetAuth="false" sslProtocol="TLS" />
+```
+
+### Step 6
+
+Restart Tomcat.
+
+
+### Step 7
+
+Navigate to https://localhost:8443.
+
+You should first see a certificate warning, click to bypass the warning.
