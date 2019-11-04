@@ -6,7 +6,7 @@ This Tomcat Tutorial will show you how to create a self signed cert that you can
 
 Open a command prompt window and navigate to your JAVA_HOME bin folder, in our case:
 ```java
-C:\Program Files\Java\jre1.8.0_171\bin
+C:\Program Files\Java\jre1.xxx\bin
 ```
 
 
@@ -43,16 +43,15 @@ Next you will be asked to use the same password for <tomcat>
 Now open the tomcat server.xml file, in our case the file is located here:
 
 ```java
-C:\apache-tomcat-8.5.34\conf\server.xml
+C:\apache-tomcat-xxx\conf\server.xml
 ```
 
 ### Step 5
 
-Add the following block to the file:
+Add the following block to the file, change password in `keystorePass`:
 
 ```xml
-	<Connector
-		protocol="HTTP/1.1"
+	<Connector protocol="HTTP/1.1"
 		port="8443" maxThreads="200"
 		scheme="https" secure="true" SSLEnabled="true"
 		keystoreFile="conf\localhost.jks" keystorePass="password"
@@ -69,3 +68,8 @@ Restart Tomcat.
 Navigate to https://localhost:8443.
 
 You should first see a certificate warning, click to bypass the warning.
+
+
+### Step 8
+
+You should now see Tomcat working over HTTPS
