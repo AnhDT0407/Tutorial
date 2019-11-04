@@ -82,7 +82,18 @@ Access Tomcat Home - This is default home screen of tomcat 9. There are no authe
 ```java
 http://localhost:8080 
 ```
-
 ![](https://github.com/AnhDT0407/Documention/blob/master/Images/tomcat9.png)
+
+Access Manager App- Click on Manager App link displayed on home page.This page is allowed for Admin and Manager access both.
+```java
+http://localhost:8080/manager/html
+```
+![](https://github.com/AnhDT0407/Documention/blob/master/Images/tomcat9-manager.png)
+
+Access Host Manager Page:- Click on the Host Manager link on your Tomcat home.This page is allowed for Admin access only.
+```java
+http://localhost:8080/host-manager/html 
+```
+![](https://github.com/AnhDT0407/Documention/blob/master/Images/tomcat9-host-manager.png)
 
 Refer: [here](https://tecadmin.net/install-tomcat-9-on-ubuntu/)
