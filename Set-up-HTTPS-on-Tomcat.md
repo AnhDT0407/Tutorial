@@ -21,13 +21,14 @@ Note: You should update the tomcat path to match your path
 
 You will then be prompted for a series of values, in our case we entered:
 
-> enter Keystore password: password
-> retype keystore password: password
-> what is your first and last name: localhost
-> what is the name of your orgainsation unit: IT
-> what is the name of your organisation: Darren
-> what is the name of your city: Dublin
-> what is the name of your state or province: Leinster
-> What is the two-letter country code for this unit: IE
-
+```
+enter Keystore password: password  
+retype keystore password: password
+what is your first and last name: localhost
+what is the name of your orgainsation unit: IT
+what is the name of your organisation: Darren
+what is the name of your city: Dublin
+what is the name of your state or province: Leinster
+What is the two-letter country code for this unit: IE
+```
 When prompted type yes to confirm all is correct.
